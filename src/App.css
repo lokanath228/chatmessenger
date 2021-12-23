@@ -7,21 +7,21 @@
 }
 
 .ce-chat-list {
-  background-color: rgb(240, 240, 240) !important;
+  background-color: rgb(27, 211, 82) !important;
 }
 
 .ce-chats-container {
-  background-color: rgb(240, 240, 240) !important;
+  background-color: rgb(158, 233, 108) !important;
 }
 
 .ce-active-chat-card {
-  background-color: #cabcdc !important;
-  border: 4px solid #cabcdc !important;
+  background-color: #5db488 !important;
+  border: 4px solid #0b8f42 !important;
   border-radius: 0px !important;
 }
 
 .ce-chat-subtitle-text {
-  color: #595959 !important;
+  color: #100a2e !important;
 }
 
 .ce-chat-form-container {
@@ -30,28 +30,28 @@
 
 .ce-text-input {
   border-radius: 6px !important;
-  border: 1px solid #3b2a50 !important;
+  border: 1px solid #0e0431 !important;
 }
 
 .ce-primary-button {
   border-radius: 6px !important;
-  background-color: #7554a0 !important;
+  background-color: #118842 !important;
   position: relative;
   bottom: 1px;
 }
 
 .ce-danger-button {
-  background-color: white !important;
+  background-color: rgb(15, 102, 124) !important;
   border-radius: 22px !important;
 }
 
 .ce-settings {
-  background-color: rgb(240, 240, 240) !important;
+  background-color: rgb(83, 145, 116) !important;
 }
 
 .ce-autocomplete-input {
   border-radius: 6px !important;
-  border: 1px solid #3b2a50 !important;
+  border: 1px solid #42b90b !important;
 }
 
 .ce-autocomplete-options {
@@ -74,7 +74,7 @@
   height: 100%;
   width: 100%;
   overflow: scroll;
-  background-color: rgb(240, 240, 240);
+  background-color: rgba(234, 236, 97, 0.993);
 }
 
 .chat-title-container {
@@ -90,7 +90,7 @@
 }
 
 .chat-subtitle {
-  color: #7554a0;
+  color: #13a06a;
   font-weight: 600;
   font-size: 12px;
   padding-top: 4px;
@@ -112,7 +112,7 @@
   width: 44px;
   height: 44px;
   border-radius: 22px;
-  color: white;
+  color: rgb(39, 124, 158);
   text-align: center;
   background-repeat: no-repeat;
   background-position: center;
@@ -158,22 +158,22 @@
   bottom: 0px;
   width: calc(100% - 36px);
   padding: 18px;
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(48, 119, 63);
 }
 
 .message-form {
   overflow: hidden;
   border-radius: 6px;
-  border: 1px solid #3b2a50;
-  background-color: white;
+  border: 1px solid #2a504a;
+  background-color: rgb(61, 148, 21);
 }
 
 .message-input {
   height: 40px;
   width: calc(100% - 132px);
-  background-color: white;
-  border: 1px solid white;
-  padding: 0px 18px;
+  background-color: rgb(224, 214, 62);
+  border: 1px solid rgb(119, 161, 21);
+  padding: 2px 20px;
   outline: none;
   font-size: 15px;
 }
@@ -186,8 +186,8 @@
 
 .send-button {
   height: 42px;
-  background-color: white;
-  border: 1px solid white;
+  background-color: rgb(40, 132, 148);
+  border: 1px solid rgb(13, 39, 112);
   padding: 0px 18px;
   cursor: pointer;
 }
@@ -220,15 +220,15 @@
   background: rgb(117, 84, 160);
   background: linear-gradient(
     90deg,
-    rgba(117, 84, 160, 1) 7%,
-    rgba(117, 84, 160, 1) 17%,
-    rgba(106, 95, 168, 1) 29%,
-    rgba(99, 103, 174, 1) 44%,
+    rgb(51, 138, 58) 7%,
+    rgb(31, 153, 62) 17%,
+    rgb(27, 118, 141) 29%,
+    rgb(67, 177, 192) 44%,
     rgba(87, 116, 184, 1) 66%,
-    rgba(70, 135, 198, 1) 83%,
-    rgba(44, 163, 219, 1) 96%,
-    rgba(22, 188, 237, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
+    rgb(33, 91, 150) 83%,
+    rgb(139, 160, 20) 96%,
+    rgb(156, 211, 28) 100%,
+    rgb(179, 189, 123) 100%
   );
   display: flex;
   justify-content: center;
@@ -257,7 +257,7 @@
 
 .title {
   text-align: center;
-  color: white;
+  color: rgb(228, 42, 42);
   margin-bottom: 30px;
   width: 100%;
   font-size: 2.3em;
@@ -266,8 +266,8 @@
 .button {
   border-radius: 4px;
   border: none;
-  background-color: white;
-  color: black;
+  background-color: rgb(184, 121, 121);
+  color: rgb(168, 115, 115);
   text-align: center;
   text-transform: uppercase;
   font-size: 22px;
